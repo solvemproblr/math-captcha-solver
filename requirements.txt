@@ -1,0 +1,5 @@
+numpy
+Pillow
+fastapi
+opencv-python-headless
+easyocr
