@@ -53,10 +53,3 @@ def solve_math_expression(image):
 
 
 reader = easyocr.Reader(lang_list=['en'], gpu=False)
-# for i in range(1, 11):
-#     image_path = "/Users/charlotte/PycharmProjects/fastApiProject/captcha (" + str(i) + ").png"
-#     image_pil = Image.open(image_path).convert("RGBA")
-#     image_np = np.array(image_pil)
-#
-#     result = solve_math_expression(image_np)
-#     print("Result:", result)
